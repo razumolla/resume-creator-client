@@ -7,9 +7,7 @@ import Home from './Pages/Home/Home';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Welcome to Resume creator</h1>
-
+    <div className="App bg-base-200">
       <Navbar></Navbar>
       <Routes>
         <Route path="/" element={<Home />} />

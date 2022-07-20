@@ -4,9 +4,9 @@ import FAQ from '../Assets/Images/maxresdefault.jpg'
 
 const Faq = () => {
     return (
-        <div>
-            <h2 className='text-3xl mt-10 font-semibold text-gray-500'>Frequently Asked Questions</h2>
-            <div class="hero bg-base-100">
+        <div className='mt-20'>
+            <h2 className='text-3xl  font-semibold text-gray-500'>Frequently Asked Questions</h2>
+            <div class="hero bg-base-200">
                 <div class="hero-content flex-col lg:flex-row-reverse gap-4">
                     <img src={FAQ} class="max-w-sm rounded-lg shadow-2xl" />
                     <div className='w-70 mx-10'>
