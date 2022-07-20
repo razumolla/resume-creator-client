@@ -6,11 +6,11 @@ import template_3 from '../Assets/Images/resume-3.png'
 const Templates = () => {
     return (
         <div className='my-10'>
-            <h1 className='text-2xl text-center font-bold text-secondary my-5'>Templates</h1>
+            <h1 className='text-2xl text-center font-bold text-secondary my-5'>Templates to win recuiters over</h1>
             <div className='grid sm:grid-cols-1 lg:grid-cols-3 my-5 gap-5'>
              
             <div class="card lg:lg-w-full bg-base-100 shadow-xl">
-                <figure><img src={template_1} alt="Shoes" /></figure>
+                <img class="w-full" src={template_1} alt="Shoes" />
                 <div class="card-body">
                     
                   
@@ -23,7 +23,7 @@ const Templates = () => {
 
             
             <div class="card lg:lg-w-full bg-base-100 shadow-xl">
-                <figure><img src={template_2} alt="Shoes" /></figure>
+                <img class="w-full" src={template_2} alt="Shoes" />
                 <div class="card-body">
                     
                    
@@ -35,7 +35,7 @@ const Templates = () => {
             </div>
 
             <div class="card lg:lg-w-full bg-base-100 shadow-xl">
-                <figure><img src={template_3} alt="Shoes" /></figure>
+                <img class="w-full" src={template_3} alt="Shoes" />
                 <div class="card-body">
                    
                 
