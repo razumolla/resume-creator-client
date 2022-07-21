@@ -6,7 +6,7 @@ import template_3 from '../Assets/Images/resume-3.png'
 const Review = () => {
     return (
         <div>
-            <h1 className='text-2xl text-center font-bold text-secondary '>Reviews</h1>
+            <h1 className='text-2xl text-center font-bold text-fuchsia-500 '>Reviews</h1>
             <div class="rating">
                 <input type="radio" name="rating-4" class="mask mask-star-2 bg-green-500" />
                 <input type="radio" name="rating-4" class="mask mask-star-2 bg-green-500" checked />
