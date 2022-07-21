@@ -1,7 +1,7 @@
 import React from "react";
-import facebook from "../../images/529-removebg-preview.png";
-import linkedin from "../../images/instagram.png";
-import instagram from "../../images/linkedin.png";
+import facebook from "../Assets/Images/529-removebg-preview.png";
+import linkedin from "../Assets/Images/instagram.png";
+import instagram from "../Assets/Images/linkedin.png";
 const Footer = () => {
   return (
     <footer className="footer p-10 bg-black text-white cursor-pointer">
