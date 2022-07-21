@@ -1,6 +1,5 @@
 import { Routes, Route } from 'react-router-dom';
 import './App.css';
-
 import Navbar from './Pages/Home/Navbar';
 import Banner from './Pages/Home/Banner';
 import Features from './Pages/Home/Features';
@@ -15,7 +14,6 @@ function App() {
         <Route path="/banner" element={<Banner />} />
         <Route path="feature" element={<Features />} />
       </Routes>
-
     </div>
   );
 }
