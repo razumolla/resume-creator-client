@@ -1,15 +1,16 @@
 import React from 'react';
 import { HiOutlineChevronDown } from "react-icons/hi";
-import FAQ from '../Assets/Images/maxresdefault.jpg'
+import FAQ from '../Assets/Images/FAQ.png';
+
 
 const Faq = () => {
     return (
-        <div className='mt-20'>
-            <h2 className='text-3xl  font-semibold text-gray-500'>Frequently Asked Questions</h2>
+        <div className='my-16'>
+            <h2 className='text-3xl text-center font-semibold text-gray-500'>Frequently Asked Questions</h2>
             <div class="hero bg-base-200">
-                <div class="hero-content flex-col lg:flex-row-reverse gap-4">
-                    <img src={FAQ} class="max-w-sm rounded-lg shadow-2xl" />
-                    <div className='w-70 mx-10'>
+                <div class="hero-content flex-col lg:flex-row-reverse gap-20">
+                    <img src={FAQ} class="max-w-sm" />
+                    <div className='w-70'>
 
 
                         <div className='relative w-[400px] overflow-hidden'>
