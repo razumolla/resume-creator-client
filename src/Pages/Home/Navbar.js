@@ -6,6 +6,7 @@ const Navbar = () => {
         <li><Link to="/">Home</Link></li>
         <li><Link to="/resume">Resume Template</Link></li>
         <li><Link to="/cv">CV Template</Link></li>
+
     </>
 
     return (
@@ -31,7 +32,15 @@ const Navbar = () => {
             </div>
 
             <div class="navbar-end px-5">
-                <Link to="/signup">SignUP</Link>
+
+                <div class="navbar-end hidden lg:flex ">
+                    <ul class="menu menu-horizontal p-0 ">
+                        <li><Link to="/login">Login</Link></li>
+                        <li> <Link to="/signup">SignUP</Link></li>
+                    </ul>
+                </div>
+
+
             </div>
 
         </div>

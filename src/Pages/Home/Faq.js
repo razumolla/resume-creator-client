@@ -1,6 +1,7 @@
 import React from 'react';
-// import { HiOutlineChevronDown } from "react-icons/hi";
+import { HiOutlineChevronDown } from "react-icons/hi";
 import FAQ from '../Assets/Images/FAQ.png';
+
 
 const Faq = () => {
     return (
@@ -20,7 +21,7 @@ const Faq = () => {
                             </div>
 
                             <div className='absolute top-3 right-3 text-white transition-transform duration-500 rotate-0 peer-checked:rotate-180'>
-                                {/* <HiOutlineChevronDown /> */}
+                                <HiOutlineChevronDown />
                             </div>
 
                             <div className='bg-white overflow-hidden transition-all duration-500 max-h-0 peer-checked:max-h-40'>
@@ -40,7 +41,7 @@ const Faq = () => {
                             </div>
 
                             <div className='absolute top-3 right-3 text-white transition-transform duration-500 rotate-0 peer-checked:rotate-180'>
-                                {/* <HiOutlineChevronDown /> */}
+                                <HiOutlineChevronDown />
                             </div>
 
                             <div className='bg-white overflow-hidden transition-all duration-500 max-h-0 peer-checked:max-h-40'>
@@ -60,7 +61,7 @@ const Faq = () => {
                             </div>
 
                             <div className='absolute top-3 right-3 text-white transition-transform duration-500 rotate-0 peer-checked:rotate-180'>
-                                {/* <HiOutlineChevronDown /> */}
+                                <HiOutlineChevronDown />
                             </div>
 
                             <div className='bg-white overflow-hidden transition-all duration-500 max-h-0 peer-checked:max-h-40'>
@@ -79,7 +80,7 @@ const Faq = () => {
                             </div>
 
                             <div className='absolute top-3 right-3 text-white transition-transform duration-500 rotate-0 peer-checked:rotate-180'>
-                                {/* <HiOutlineChevronDown /> */}
+                                <HiOutlineChevronDown />
                             </div>
 
                             <div className='bg-white overflow-hidden transition-all duration-500 max-h-0 peer-checked:max-h-40'>

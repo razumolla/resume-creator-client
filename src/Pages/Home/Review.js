@@ -1,12 +1,12 @@
 import React from 'react';
-import template_1 from '../Assets/Images/resume template-1.png'
-import template_2 from '../Assets/Images/resume-2.jpg'
-import template_3 from '../Assets/Images/resume-3.png'
+import person_1 from '../Assets/Images/person-1.jfif'
+import person_2 from '../Assets/Images/person-2.jfif'
+import person_3 from '../Assets/Images/person-3.jfif'
 
 const Review = () => {
     return (
         <div>
-            <h1 className='text-2xl text-center font-bold text-secondary '>Reviews</h1>
+            <h1 className='text-2xl text-center font-bold text-fuchsia-500 '>Reviews</h1>
             <div class="rating">
                 <input type="radio" name="rating-4" class="mask mask-star-2 bg-green-500" />
                 <input type="radio" name="rating-4" class="mask mask-star-2 bg-green-500" checked />
@@ -21,7 +21,7 @@ const Review = () => {
                     <figure class="px-10 pt-10">
                         <div class="avatar">
                             <div class="w-24 rounded-full">
-                                <img src="https://placeimg.com/192/192/people" />
+                                <img src={person_1} alt/>
                             </div>
                         </div>
                     </figure>
@@ -39,7 +39,7 @@ const Review = () => {
                     <figure class="px-10 pt-10">
                         <div class="avatar">
                             <div class="w-24 rounded-full">
-                                <img src="https://placeimg.com/192/192/people" />
+                                <img src={person_3} />
                             </div>
                         </div>
                     </figure>
@@ -57,7 +57,7 @@ const Review = () => {
                     <figure class="px-10 pt-10">
                         <div class="avatar">
                             <div class="w-24 rounded-full">
-                                <img src="https://placeimg.com/192/192/people" />
+                                <img src={person_2} />
                             </div>
                         </div>
                     </figure>
